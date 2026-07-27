@@ -134,7 +134,7 @@ h1, h2, h3 {
    Hero / About
 --------------------------------------------------- */
 .hero {
-  padding: 96px 32px 48px;
+  padding: 40px 32px 40px;
   border-bottom: 1px solid var(--rule);
 }
 .hero-inner {
@@ -144,12 +144,12 @@ h1, h2, h3 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 32px;
+  gap: 20px;
 }
 
 .hero-photo {
-  width: 220px;
-  height: 220px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--rule);
@@ -174,14 +174,14 @@ h1, h2, h3 {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
-  margin: 0 0 16px;
+  margin: 0 0 10px;
   font-weight: 500;
 }
 
 .hero h1 {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   font-weight: 500;
-  margin: 0 0 24px;
+  margin: 0 0 12px;
   letter-spacing: -0.01em;
 }
 
@@ -423,7 +423,7 @@ h1, h2, h3 {
     border-bottom: 1px solid var(--rule);
     border-radius: 0;
   }
-  .hero { padding-top: 56px; }
+  .hero { padding-top: 32px; }
   .hero h1 { font-size: 2.1rem; }
-  .hero-photo { width: 150px; height: 150px; }
+  .hero-photo { width: 120px; height: 120px; }
 }
